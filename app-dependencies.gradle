@@ -1,0 +1,33 @@
+ext {
+
+    SPRING_BOOT_RUNTIME = [
+            [group: 'org.springframework.boot', name: 'spring-boot-starter-web']
+    ]
+    
+    SPRING_BOOT_TEST = [
+            [group: 'org.springframework.boot', name: 'spring-boot-starter-test']
+    ]
+    
+    SPRING_DOC = [
+            [group: 'org.springdoc', name: 'springdoc-openapi-core', version: springDocVersion],
+            [group: 'org.springdoc', name: 'springdoc-openapi-ui', version: springDocVersion]
+    ]
+    
+    LOMBOK = [
+            [group: 'org.projectlombok', name: 'lombok', version: lombokVersion]
+    ]
+
+    VAVR = [
+            [group: 'io.vavr', name: 'vavr', version: vavrVersion]
+    ]
+    
+    APACHE_COMMONS = [
+            [group: 'commons-io', name: 'commons-io', version: apacheCommonsIOVersion],
+            [group: 'org.apache.commons', name: 'commons-lang3', version: apacheCommons]
+    ]
+    
+    UTIL = [
+            [group: 'com.github.dpaukov', name: 'combinatoricslib3', version: dpaukov]
+    ]
+
+}

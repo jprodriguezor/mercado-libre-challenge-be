@@ -1,0 +1,15 @@
+server:
+  port: ${APP_PORT:8700}
+  application:
+    name: financial-transactions-portal-be
+
+springdoc:
+  api-docs:
+    enabled: true
+  swagger-ui:
+    enabled: true
+
+
+endpoints:
+  mercado-libre:
+    url: https://api.mercadolibre.com/items/
